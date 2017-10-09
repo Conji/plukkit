@@ -1,0 +1,39 @@
+{
+    "name": "Plukkit",
+    "version": "0.0.1",
+    "description": "Code snippets made sexy!",
+    "main": "./dist/index.js",
+    "scripts": {
+        "build": "buble -i src -o dist --no modules",
+        "gh-release": "gh-release",
+        "start": "electron .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "babelify": "^6.1.2",
+        "browserify": "^10.2.4",
+        "del": "^1.2.0",
+        "electron-prebuilt": "^0.28.3",
+        "fs": "0.0.2",
+        "vinyl-source-stream": "^1.1.0",
+        "webpack": "^3.6.0"
+    },
+    "dependencies": {
+        "angular": "^1.6.6",
+        "angular-animate": "^1.6.6",
+        "angular-aria": "^1.6.6",
+        "angular-messages": "^1.6.6",
+        "angular-route": "^1.6.6",
+        "codemirror": "^5.30.0",
+        "dom-to-image": "^2.5.2",
+        "electron-is": "^2.4.0",
+        "electron-settings": "^3.1.2",
+        "gh-release": "^3.1.1",
+        "jquery": "^3.2.1",
+        "node-notifier": "^5.1.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/conji/plukkit/plukkit.git"
+    }
+}
